@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .container{
+      transform:translate(50,50%);
+      left: 50%;
+      top: 0%;
+      margin: 0;
+      width: 500px;
+      padding: 0;
+      border: 1px solid wheat;
+      border-radius: 20px;
+    }
+    .info img{
+      padding: 10px;
+      border-radius: 20px;
+    }
+    .info h1{
+      font-family: young serif;
+    }
+    .info p{
+      color: hsl(30, 4%, 44%);
+      font-size: 16px;
+    }
+    .Preparation{
+      background-color:hsl(15, 46%, 74%);
+      padding: 1px;
+    }
+    .Preparation h2{
+      color: hsl(332 51% 32%)
+    }
+    .Preparation span{
+      color: black;
+    }
+    .Preparation ul{
+      color: hsl(30, 4%, 44%);
+    }
+    .ingredients h2{
+      font-family: young serif;
+      color: hsl(14, 34%, 45%);
+    }
+    .ingredients ul{
+      color: hsl(30, 4%, 44%);
+    }
+    .instruction h2{ 
+      font-family: young serif;
+      color: hsl(14, 34%, 45%); 
+    }
+    .instruction span{
+      color: black;
+    }
+    .instruction ol{
+      color: hsl(30, 4%, 44%);
+    }
+    .nutrition h2{
+      font-family: young serif;
+      color: hsl(14, 34%, 45%);
+    }
+    .nutrition p{
+       color: hsl(30, 4%, 44%);;
+    }
+    .nutrition td{
+      color: hsl(30, 4%, 44%);
+      padding: 10px;
+      border-bottom: 1px solid skyblue;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <center>
+<div class="container">
+  <div class="info">
+  <img src="assets/images/image-omelette.jpeg" alt="omelette" width="475px" height="auto">
+  
+  <h1>Simple Omelette Recipe</h1>
+
+  <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+  to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+  </div>
+  <div class="Preparation">
+  <h2> Preparation time</h2>
+<ul>
+  <li><span><b>Total: </b></span>Approximately 10 minutes</li>
+  <li><span><b>Preparation: </b></span>5 minutes</li>
+  <li><span><b>Cooking: </b></span>5 minutes</li>
+</ul>
+  </div>
+  <div class="ingredients">
+  <h2>Ingredients</h2>
+  <ul>
+  <li>large eggs Salt,</li> 
+  <li>to taste Pepper,</li>
+  <li>to taste 1 tablespoon of butter or oil</li>
+  <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+  </ul>
+  </div>
+  <hr />
+  <div class="instruction">
+     <h2>Instructions</h2>
+     <ol>
+  <li><span><b>Beat the eggs: </b></span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+  You can add a tablespoon of water or milk for a fluffier texture.</li>
+
+  <li><span><b> Heat the pan: </b></span> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+
+  <li><span><b>Cook the omelette: </b></span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+  the eggs evenly coat the surface.</li>
+
+  <li><span><b>Add fillings (optional): </b></span> When the eggs begin to set at the edges but are still slightly runny in the 
+  middle, sprinkle your chosen fillings over one half of the omelette.</li>
+
+  <li><span><b>Fold and serve: </b></span> As the omelette continues to cook, carefully lift one edge and fold it over the 
+  fillings. Let it cook for another minute, then slide it onto a plate.</li>
+
+  <li><span><b>Enjoy: </b></span> Serve hot, with additional salt and pepper if needed.</li>
+  </ol>
+  </div>
+  <hr />
+  <div class="nutrition">
+  <h2>Nutrition</h2>
+
+  <p>The table below shows nutritional values per serving without the additional fillings.</p>
+<table>
+  <tr>
+  <td>Calories</td>
+  <td style="color: hsl(14, 34%, 45%);"><b>277kcal</b></td> 
+  </tr> 
+  <tr>
+    <td>Carbs</td>
+    <td style="color: hsl(14, 34%, 45%);"><b>0g</b></td> 
+  </tr> 
+  <tr>
+    <td>Protein</td>
+    <td style="color: hsl(14, 34%, 45%);"><b>20g</b></td> 
+  </tr> 
+  <tr>
+    <td>Fat</td>
+    <td style="color: hsl(14, 34%, 45%);"><b>22g</b></td> 
+  </tr> 
+</table>
+<hr />
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Chigullapally Avanthi</a>.
+  </div>
+</div>
+</center>
+</body>
+</html>
